@@ -113,7 +113,7 @@ function Reservation() {
           <p><FaClock /> Operating Hours<br />Mon–Fri: 6AM–10PM<br />Sat: 7AM–11PM<br />Sun: 7AM–9PM</p>
           <p><FaEnvelope /> Group Reservations<br />For 8+ guests, call us directly</p>
           <p><FaClock /> Advance Booking<br />We accept bookings up to 30 days in advance</p>
-          <p><FaPhoneAlt /> Contact Us<br />Phone: (555) 123-7777<br />Email: hello@cafesilver7.com</p>
+          <p><FaPhoneAlt /> Contact Us<br />Phone:9970023020<br />Email:cafesilver7@gmail.com</p>
           <div className="reservation-note">
             <p><strong>Please Note:</strong><br />
               - Arrive within 15 mins of booking time<br />

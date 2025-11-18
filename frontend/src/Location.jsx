@@ -51,7 +51,7 @@ function Location() {
           </div>
           <div>
             <h4>Contact Info</h4>
-            <p>123 Coffee Street<br />Downtown District<br />Phone: (555) 123-7777<br />Email: hello@cafesilver7.com</p>
+            <p>123 Coffee Street<br />Downtown District<br />Phone:9970023020<br />Email:cafesilver7@gmail.com</p>
           </div>
           <div>
             <h4>Hours</h4>

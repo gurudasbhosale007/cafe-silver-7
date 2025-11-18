@@ -1,0 +1,131 @@
+.navbar {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.navbar-left {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 36px;
+  color: #f4c542;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar-left span {
+  color: #fff;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar-right a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-right a:hover {
+  background-color: #333;
+  border-radius: 4px;
+}
+
+.navbar-right .active {
+  border-bottom: 2px solid #fff;
+  font-weight: 600;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-right {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 4px 0 4px 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 99;
+  }
+
+  .navbar-right.open {
+    display: flex;
+  }
+}
+.footer {
+  background: #222;
+  color: #ddd;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-columns > div {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+  color: #f4c542;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer-link {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #f4c542;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .footer-columns {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-columns > div {
+    margin: 15px 0;
+  }
+}

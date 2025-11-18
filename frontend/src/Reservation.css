@@ -1,0 +1,121 @@
+.reservation-hero {
+  background-color: #6a4f4b;
+  text-align: center;
+  color: white;
+  padding: 50px 20px;
+}
+
+.reservation-hero h1 {
+  font-family: 'Georgia', serif;
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: blanchedalmond;
+}
+
+.reservation-hero p {
+  font-size: 18px;
+}
+
+.reservation-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.reservation-form-container,
+.reservation-info {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  flex: 1 1 350px;
+  border-radius: 5px;
+}
+
+.reservation-form h2 {
+  margin-bottom: 20px;
+}
+
+.reservation-form input,
+.reservation-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.reservation-form button {
+  width: 100%;
+  background-color: #f4c542;
+  border: none;
+  padding: 10px;
+  color: #222;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reservation-form button:hover {
+  background-color: #e3b522;
+}
+
+.reservation-message {
+  color: green;
+  margin-top: 10px;
+}
+
+.reservation-info h2 {
+  margin-bottom: 20px;
+}
+
+.reservation-info p {
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+.reservation-note {
+  background: #fef4d6;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: #ddd;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer-link {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #f4c542;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}

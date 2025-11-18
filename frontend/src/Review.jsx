@@ -209,8 +209,8 @@ function Reviews() {
             <h3>Customer Service</h3>
             <p>We’re here to help! Reach out with any questions or concerns.</p>
             <ul>
-              <li>Phone: (555) 123-7777</li>
-              <li>Email: support@cafesilver7.com</li>
+              <li>Phone:9970023020</li>
+              <li>Email:cafesilver7@gmail.com</li>
               <li>Hours: Mon–Fri 7AM–10PM</li>
             </ul>
           </div>
@@ -233,7 +233,7 @@ function Reviews() {
           </div>
           <div>
             <h4>Contact Info</h4>
-            <p>123 Coffee Street<br />Downtown District<br />Phone: (555) 123-7777<br />Email: hello@cafesilver7.com</p>
+            <p>123 Coffee Street<br />Downtown District<br />Phone:9970023020<br />Email:cafesilver7@gmail.com</p>
           </div>
           <div>
             <h4>Hours</h4>
